@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Naufal Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Inter',sans-serif;
+}
+
+body{
+    background:#0f0f12;
+    color:#eaeaea;
+}
+
+header{
+    padding:100px 20px;
+    text-align:center;
+}
+
+header h1{
+    font-size:48px;
+    font-weight:700;
+}
+
+header p{
+    margin-top:15px;
+    color:#9aa0a6;
+    font-size:18px;
+}
+
+.btn{
+    margin-top:30px;
+    display:inline-block;
+    padding:12px 30px;
+    background:#3a86ff;
+    color:white;
+    text-decoration:none;
+    border-radius:6px;
+    transition:0.3s;
+}
+
+.btn:hover{
+    transform:scale(1.05);
+}
+
+section{
+    padding:80px 10%;
+}
+
+h2{
+    margin-bottom:40px;
+    font-size:28px;
+    border-left:4px solid #3a86ff;
+    padding-left:10px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#1a1a22;
+    padding:20px;
+    border-radius:10px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:scale(1.03);
+}
+
+.card img{
+    width:100%;
+    border-radius:6px;
+}
+
+.card h3{
+    margin-top:15px;
+}
+
+footer{
+    text-align:center;
+    padding:40px;
+    color:#9aa0a6;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Naufal</h1>
+    <p>Visual Designer — Logo | Poster | Photography</p>
+    <a href="#works" class="btn">View Works</a>
+</header>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>Saya fokus pada desain visual yang memiliki konsep kuat dan identitas yang jelas. 
+    Berpengalaman dalam membuat logo, poster, dan karya fotografi dengan pendekatan modern dan terstruktur.</p>
+</section>
+
+<section id="works">
+    <h2>Logo Design</h2>
+    <div class="grid">
+        <div class="card">
+            <img src="https://via.placeholder.com/400x300" alt="">
+            <h3>Project Alpha</h3>
+            <p>Logo dengan konsep modern minimalis.</p>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/400x300" alt="">
+            <h3>Project OBSI</h3>
+            <p>Identitas visual dengan karakter kuat.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Poster Design</h2>
+    <div class="grid">
+        <div class="card">
+            <img src="https://via.placeholder.com/400x300" alt="">
+            <h3>Event Poster</h3>
+            <p>Poster promosi dengan tone gelap modern.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Photography</h2>
+    <div class="grid">
+        <div class="card">
+            <img src="https://via.placeholder.com/400x300" alt="">
+            <h3>Street Capture</h3>
+            <p>Eksplorasi cahaya dan komposisi.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: naufal@email.com</p>
+    <p>Instagram: @naufal</p>
+</section>
+
+<footer>
+    © 2026 Naufal Portfolio
+</footer>
+
+</body>
+</html>
